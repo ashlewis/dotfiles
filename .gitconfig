@@ -1,0 +1,16 @@
+[user]
+	name = Ashley Lewis
+	email = ashley.lewis@tracesmart.co.uk
+[color]
+	ui = true
+[alias]
+	ci = commit
+	co = checkout
+	br = branch
+	st = status
+	subup = submodule update
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[color "status"]
+	added = green
+	changed = red
+	untracked = cyan
