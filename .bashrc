@@ -98,7 +98,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export PS1='\[\033[1;33m\][\u@\h]\[\033[0m\]\n\[\033[0;37m\]\[\033[1;31m\]\W\[\033[0m\]\[\[\033[0;32m\]$(__git_ps1)\[\033[0m\] \$ '
+#export PS1='\[\033[1;33m\][\u@\h]\[\033[0m\]\n\[\033[0;37m\]\[\033[1;31m\]\W\[\033[0m\]\[\[\033[0;32m\]$(__git_ps1)\[\033[0m\] \$ '
 
 . ~/scripts/z.sh
 
