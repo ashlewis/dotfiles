@@ -12,3 +12,8 @@ alias la="ls -la"
 # typo
 alias naon="nano"
 alias suod="sudo"
+alias suna="sudo nano"
+
+# other
+alias yo="yeoman"
+
